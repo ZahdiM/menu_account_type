@@ -16,7 +16,7 @@ Account Type is a parent account being used in Chart of Account to defined child
 menu to add or replace or update account type in chart of account.
 Odoo Odoo Accounts""",
     'sequence': -100,
-    'depends': ['account_accountant'],
+    'depends': ['account'],
     'data': [
         'views/account_type_menu.xml'
     ],
